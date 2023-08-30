@@ -1,0 +1,40 @@
+/* Reset default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
