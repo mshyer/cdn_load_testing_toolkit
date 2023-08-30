@@ -1,6 +1,6 @@
 **README**
 **ABOUT**
-The small_sfs repo contains hundreds of small files for use with load testing the CDN and CDN monitoring.
+The small_sfs repo contains thousands of small files for use with load testing the CDN and CDN monitoring.
 
 It also contains an express backend that serves static files.
 
@@ -18,4 +18,4 @@ The repo uses Git Large File Storage to store the image and movie assets.
 Express server listens on port 4501 by default
 After running `npm start`, the server will listen for incoming requests. 
 
-small_sfs is designed to work with request_monster. Configure and run request_monster on your local development environment, and it will issue requests to the remote server that hosts small_sfs.
+Small SFS is designed to work with Request Monster. Configure and run Request Monster on your local development environment, and it will issue requests to the remote server that hosts small_sfs.

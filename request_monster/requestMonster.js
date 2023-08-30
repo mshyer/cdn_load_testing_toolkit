@@ -91,7 +91,7 @@ const weightedRandomFile = () => {
 
 // Request monster is hungry
 const infiniteTimedFetch = () => {
-  console.log("fetching static", STATIC_BASE_URL)
+  console.log("fetching static resources at URL: ", STATIC_BASE_URL)
   setInterval(() => {
     const staticPath = weightedRandomFile();
     fetch(STATIC_BASE_URL + staticPath, {
@@ -104,7 +104,7 @@ const infiniteTimedFetch = () => {
         console.log(response.headers);
         return response.blob()}
         )
-      .then(blob => console.log("fetched a blob of type " + blob.type))
+      .then(blob => console.log("fetched a resource of type " + blob.type))
   }, FETCH_RATE)
 };
 
