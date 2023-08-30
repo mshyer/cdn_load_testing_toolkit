@@ -5,8 +5,11 @@ This repo provides two tools that allow users to test their CDN configurations:
 
 # what does the toolkit do?
 - Small SFS is a static file server that can be hosted on a VPS behind a CDN. It comes pre-loaded with thousands of small files that can be used to test CDN performance.
+
 ![files](./files.png)
+
 - Request Monster issues requests for static resources at a configurable rate
+
 ![requests](./requests.png)
 
 - When used together, these two repos simulate traffic to the CDN, and can be used for load testing, as well as debugging and optimization of the CDN.
