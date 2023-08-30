@@ -3,13 +3,12 @@
 The small_sfs repo contains hundreds of small files for use with load testing the CDN and CDN monitoring.
 
 It also contains an express backend that serves static files.
-This repo is pretty much useless without the "request_monster" repo. Please download that!
 
 **INSTALLATION NOTES**
 This static file server is designed to be installed on a VPS behind a CDN. That VPS must be configured with the correct DNS information and Web Server / reverse proxy (such as nginx)
 
 **GIT LARGE FILE STORAGE**
-The repo uses Git Large File Storage to store the image and movie assets. I think you should be able to clone it normally, but if you get errors related to downloading photo/video files, it could be because of git lfs.
+The repo uses Git Large File Storage to store the image and movie assets.
 
 **EXPRESS BACKEND**
 1. `npm install`
